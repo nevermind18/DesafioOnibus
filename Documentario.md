@@ -1,12 +1,7 @@
 banco de dados
 Linha 1 <- n Itinerario
 
-linha
-  long id
-  double lng
-  double lat
-  
- itinerario
+Apis
 
 Itinerario API
 uri base = /v1/itinerario
