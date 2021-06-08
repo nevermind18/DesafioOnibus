@@ -1,3 +1,13 @@
+banco de dados
+Linha 1 <- n Itinerario
+
+linha
+  long id
+  double lng
+  double lat
+  
+ itinerario
+
 Itinerario API
 uri base = /v1/itinerario
 
@@ -42,7 +52,4 @@ Deleta uma linha usando uma linha recebida
 buscar um linha por um nome recebido e retorna uma ResponseEntity<linha>
 
 @GetMapping("/distancia")
-buscar um linha por um nome recebido e retorna uma ResponseEntity<linha>
-
-        return linhaServiceInterface.buscarPorDistancia(distancia);
-    } 
+necessita de uma list<> para buscar um linha que passe dentro de uma area e retorna uma ResponseEntity<linha>
